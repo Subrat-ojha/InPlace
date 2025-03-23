@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InPlace</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <div class="icon-map">
+        <img src="logo.webp" alt="map icon" width="40" height="40">
+    </div>
+    <h1>Discover places.</h1>
+    <p class="search-para">Explore the best attractions and restaurants in cities around the world.</p>
+
+    <div class="search-container">
+        <div class="search-box">
+            <span>InPlace.in/</span>
+            <input type="text" id="searchInput" placeholder="Enter a city">
+            <button id="searchButton">Search</button>
+        </div>
+    </div>
+
+    <h3>Why choose Inplace.in for your travel planning?</h3>
+
+    <div class="boxes-container">
+        <div class="box">
+            <p class="first-font">Comprehensive guides</p>
+            <p class="second-font">Curated lists of attractions, restaurants and stays</p>
+        </div>
+        <div class="box">
+            <p class="first-font">Clean, focused design</p>
+            <p class="second-font">Distraction-free lists and guides</p>
+        </div>
+        <div class="box">
+            <p class="first-font">Global coverage</p>
+            <p class="second-font">Up-to-date information on 6835+ cities worldwide</p>
+        </div>
+        <div class="box">
+            <p class="first-font">User reviews</p>
+            <p class="second-font">Ratings to help you make informed decisions</p>
+        </div>
+    </div>
+
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
